@@ -1,5 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -38,7 +42,7 @@ ul,li,a,p,h1,h2,h3 {
 .content-cubo h1 {
   display: block;
   color: #ff0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 4rem;
   font-weight: 500;
@@ -71,7 +75,7 @@ ul,li,a,p,h1,h2,h3 {
   color:#ff0;
   font-weight: 800;
   line-height: 1;
-  padding:10px 20px;
+  padding:14px 28px; 
   border: 3px solid #ff0;
   background:  #0032c2 ;
   box-shadow: 8px 8px rgba(0, 40, 153, 0.6);
@@ -86,6 +90,13 @@ ul,li,a,p,h1,h2,h3 {
 
 .funcionalidades li {
   list-style: none;
+}
+
+h3 {
+  margin: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .video-cubo {
@@ -104,6 +115,12 @@ ul,li,a,p,h1,h2,h3 {
 .cubo:hover {
   filter: none;
   transition: filter 0.9s ease;
+}
+
+.seta {
+  max-width: 120px;
+  height: auto;
+  margin-top: 80px;
 }
 
 /*Parte de basics*/
@@ -125,7 +142,7 @@ ul,li,a,p,h1,h2,h3 {
 .content-basics h2 {
   display: block;
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
@@ -175,7 +192,7 @@ ul,li,a,p,h1,h2,h3 {
 .content-swappable h2 {
   display: block;
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
@@ -226,7 +243,7 @@ ul,li,a,p,h1,h2,h3 {
 .content-sortable h2 {
   display: block;
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
@@ -276,7 +293,7 @@ ul,li,a,p,h1,h2,h3 {
 .content-collidable h2 {
   display: block;
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
@@ -327,7 +344,7 @@ ul,li,a,p,h1,h2,h3 {
 .content-others-flex h2 {
   display: block;
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 4rem;
   font-weight: 800;
@@ -370,7 +387,7 @@ ul,li,a,p,h1,h2,h3 {
 }
 
 .direitos {
-  max-width: 200px;
+  max-width: 250px;
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
@@ -485,6 +502,12 @@ ul,li,a,p,h1,h2,h3 {
     height: auto;
     top: 17vw;
   }
+
+  .seta {
+    max-width: 90px;
+    height: auto;
+    margin-top: 80px;
+  }
 }
 
 @media(max-width:472px){
@@ -499,6 +522,11 @@ ul,li,a,p,h1,h2,h3 {
 
   .content-cubo .sub-info {
     font-size: 1.25rem;
+  }
+
+  .funcionalidades{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .funcionalidades li a {
@@ -615,5 +643,14 @@ ul,li,a,p,h1,h2,h3 {
   .cubo-others {
     filter: none;
   }
-}
 
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .seta {
+    max-width: 40px;
+    height: auto;
+    margin-top: 80px;
+  }
+}
