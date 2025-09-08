@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "-apple-system",Helvetica,Helvetica,sans-serif,Symbol;
-  background-image: url('./img/fundo.webp');
+  background-image: url('./img/fundo.jpg');
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -23,7 +23,7 @@ body {
 }
 
 .content-sobre {
-  padding: 3rem;
+  padding: 2rem;
   color: #ffffff;
 }
 
