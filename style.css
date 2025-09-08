@@ -366,7 +366,7 @@ h3 {
   filter:  drop-shadow(0px 25px rgba(91, 30, 93, 0.5));
   max-width: 100%;
   height: auto;
-  margin: 60px 0px 0px 0px;
+  margin: 60px 0px 150px 0px;
 }
 
 .cubo-others:hover {
@@ -389,8 +389,8 @@ h3 {
 .direitos {
   max-width: 250px;
   text-align: center;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 800;
 }
 
 /*Responsivo*/
@@ -635,8 +635,12 @@ h3 {
 
   /*footer*/
 
+  .footer {
+    padding-top:0px;
+  }
+
   .direitos {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
   }
 
   .cubo, .cubo-basics, .cubo-swappable, .cubo-sortable, .cubo-collidable,
