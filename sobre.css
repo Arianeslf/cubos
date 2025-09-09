@@ -1,8 +1,9 @@
+/* ==== Reset & Global ==== */
 html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, p, span{
+h1, h2, h3, p, span {
   margin: 0;
   padding: 0;
 }
@@ -10,7 +11,7 @@ h1, h2, h3, p, span{
 body {
   margin: 0;
   padding: 0;
-  font-family: "-apple-system",Helvetica,Helvetica,sans-serif,Symbol;
+  font-family: "-apple-system", Helvetica, Helvetica, sans-serif, Symbol;
   background-image: url('./img/fundo.jpg');
   background-size: cover;
   background-position: center;
@@ -22,6 +23,7 @@ body {
   align-items: center;
 }
 
+/* ==== Sobre ==== */
 .content-sobre {
   padding: 2rem;
   color: #ffffff;
@@ -43,6 +45,7 @@ body {
   line-height: 1.5;
 }
 
+/* ==== Tecnologias ==== */
 .content-tecnologias {
   display: flex;
   justify-content: center;
@@ -57,6 +60,11 @@ body {
   margin: 0px 20px 35px 20px;
   border-radius: 8px;
   box-shadow: -12px 12px 6px rgba(60, 11, 72, 0.2);
+  transition: background 0.3s ease;
+}
+
+.tecnologias:hover {
+  background: #6e1e82;
 }
 
 .tecnologias .img {
@@ -65,25 +73,20 @@ body {
   margin: 10px 0px;
 }
 
-.tecnologias h2{
+.tecnologias h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   margin: 10px 0px;
   font-size: 1.3rem;
   color: #ffffff;
 }
 
-.tecnologias p{
+.tecnologias p {
   margin: 10px 0px;
   font-size: 1.1rem;
   color: #d6d3d3;
 }
 
-.tecnologias:hover {
-  background: #6e1e82;
-}
-
-/*responsivo*/
-
+/* ==== Responsivo ==== */
 @media (max-width: 723px) {
   .content-sobre h1 {
     font-size: 3rem;
@@ -147,33 +150,26 @@ body {
   }
 
   .content-tecnologias {
-    display: flex;
-    justify-content: center;
     gap: 35px;
-    flex-wrap: wrap;
   }
 
   .tecnologias {
-    background: #3c0b48;
     padding: 30px;
     max-width: 300px;
     margin: 0px 20px 35px 20px;
-    border-radius: 8px;
-    box-shadow: -12px 12px 6px rgba(60, 11, 72, 0.2);
   }
 
   .tecnologias .img {
     max-width: 90px;
-    margin: 10px 0px;
   }
 
-  .tecnologias h2{
-    margin: 10px 0px;
+  .tecnologias h2 {
     font-size: 1.7rem;
+    margin: 10px 0px;
   }
 
-  .tecnologias p{
-    margin: 10px 0px;
+  .tecnologias p {
     font-size: 1.5rem;
+    margin: 10px 0px;
   }
 }
