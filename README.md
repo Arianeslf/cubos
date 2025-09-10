@@ -48,7 +48,7 @@ Confira o projeto online clicando no link:
       <img src="https://github.com/Arianeslf.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/Arianeslf">Lucyan Ovídio.</a> 🙋🏻‍♀️
+      Feito por <a href="https://github.com/Arianeslf">Ariane Silvestre.</a> 🙋🏻‍♀️
     </td>
   </tr>
 </table>
